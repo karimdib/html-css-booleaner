@@ -7,7 +7,7 @@ body{
     max-width: 1050px;
     margin: auto;
 }
-
+/*inizio header*/
 header{
     background-color: #4fa0ff;
     height: 120px;
@@ -20,8 +20,10 @@ header img{
     width: 180px;
     height: 180px;
 }
+/*fine header*/
 
 
+/*inizio main*/
 #author{
     color: #a4a4a4;
     margin-bottom: 20px;
@@ -75,8 +77,9 @@ th{
 .background-tr{ 
     background-color: #b2e5f2;
 }
+/*fine main*/
 
-
+/*inizio footer*/
 h3{
     color: gray;
     font-weight: bolder;
@@ -107,3 +110,5 @@ h3{
 #sfondo-due p{
     margin-left: 20px;
 }
+
+/*fine footer*/
