@@ -77,6 +77,10 @@ th{
 .background-tr{ 
     background-color: #b2e5f2;
 }
+
+table{
+    border-collapse: collapse; /*sarò sincero ho trovato questo selettore  su internet spero vada bene*/
+}
 /*fine main*/
 
 /*inizio footer*/
