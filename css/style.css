@@ -16,19 +16,19 @@ header{
     margin-bottom: 20px;   
 }
 
+
+
 header img{
     width: 180px;
     height: 180px;
 }
 /*fine header*/
-
-
+        
 /*inizio main*/
 #author{
     color: #a4a4a4;
     margin-bottom: 20px;
 }
-
 
 #author a {
     text-decoration: none;
@@ -38,7 +38,6 @@ header img{
 #description{
     font-size: small;    
 }
-
 
 .lorem-paragraph{
     margin: 20px 0px 20px 0;
@@ -53,8 +52,6 @@ ul{
 span{
     background-color: yellow;
 }
-
-
 
 th{
     color: white;
@@ -116,3 +113,36 @@ h3{
 }
 
 /*fine footer*/
+
+@media (max-width: 850px) {
+    header{
+        background-color: red;
+        height: 100px;
+        background-image: url('../img/pattern.png');
+        background-size: 400px 250px;
+        margin-bottom: 20px;
+
+}
+
+
+     header img{
+     width: 160px;
+     height: 160px;
+}
+    main{
+    max-width: 390px;
+    padding-left:1px ;
+}
+    
+    .first-image{
+       width: 388px;
+    }
+
+    .second-image{
+        width: 388px;
+
+    }
+}
+
+
+
